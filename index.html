@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <h1>University Registration Form</h1>
+    <img src="https://plus.unsplash.com/premium_photo-1697729447666-c39f50d595ea?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwY29sbGVnZXxlbnwwfHwwfHx8MA%3D%3D" alt="" height="250px" width="400px">
+    <p>
+      Please fill out the form
+    </p>
+
+    <hr>
+    <h2>Personal Details</h2>
+    <label for="name">First Name:</label>
+    <input type="text" name="Firs_name" id="name" placeholder="E.g- Ajay.." required>
+    <br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" name="Last_Name" id="lname" placeholder="E.g- Kumar">
+    <br><br>
+    <label for="Date">Date of Birth:</label>
+    <input type="date" name="DOB" id="Date">
+    <br><br>
+    <label for="male">Gender:</label>
+    <br>
+    
+    <input type="radio" Name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <br>
+     <input type="radio" Name="gender" id="female" value="female">
+    <label for="female">FeMale</label>
+    <br>
+     <input type="radio" Name="gender" id="other" value="other">
+    <label for="other">Other</label>
+
+    <br><br>
+    <label for="file">File Upload: </label>
+    <br>
+    <input type="file" name="file" id="file">
+    <hr>
+    <h2>Contact Information:</h2>
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="mail" id="email" placeholder="E.g - ak2534@gmmail.com">
+    <br><br>
+    <label for="num">Phone Number:</label>
+    <input type="password" name="Number" id="num" placeholder="E.g- 24241234...">
+    <br><br>
+    <label for="add">Mail Address: </label>
+    <br>
+    <textarea name="Address" id="add" cols="30" rows="10" placeholder="Street Address, City, State, Pin code..."></textarea>
+    <br><br>
+    <hr>
+    <h2>Academic Information</h2>
+    <br>
+    <label for="course">Select your Course:</label>
+    <select name="course" id="course">
+      <option>Choose Course</option>
+      <option value="MBA">MBA</option>
+      <option value="CSE">CSE</option>
+      <option value="AI ML">AI ML</option>
+      <option value="BBA">BBA</option>
+      <option value="MCA">MCA</option>
+    </select>
+    <br><br>
+    <h3>Extracurricular Interests:</h3>
+    <br>
+    <label for="sports">Sports</label>
+    <input type="checkbox" name="Interests" id="sports" value="sports">
+    <br><br>
+    <label for="music">Music</label>
+    <input type="checkbox" name="Interests" id="Music" value="Music">
+    <br><br>
+    <label for="Technology clubs">Technology clubs</label>
+    <input type="checkbox" name="Interests" id="Technology clubs" value="Technology clubs">
+    <br><br>
+    <label for="Volunteering">Volunteering</label>
+    <input type="checkbox" name="Interests" id="Volunteering" value="Volunteering">
+    <hr>
+    <h2>Create Your Account:</h2>
+    <br>
+    <label for="pass">Create Password:</label>
+    <input type="password" name="password" id="pass">
+    <br>
+    <br>
+    <label for="sec" >Security Questions:</label>
+    <select name="security" id="sec">
+      <option value="What was your first pets name?">What was your first pets name?</option>
+    </select>
+    <br>
+    <br>
+    <label for="secu">Security Answer:</label>
+    <input type="text" name="security" id="secu" >
+    <br><br>
+
+    <input type="checkbox" name="I_agree" id="i" required>
+    <label for="i">I agree to the terms and Condions. </label>
+    <hr>
+    <button type="submit">Register</button>
+    <button type="reset">Clear Form</button>
+
+  </form>
+</body>
+</html>
